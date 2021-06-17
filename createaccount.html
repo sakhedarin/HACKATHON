@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+        
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyBhwbteo6NZZCK6xUd5nQvCAOVc8M1l-kI",
+    authDomain: "bbulogindatabase.firebaseapp.com",
+    projectId: "bbulogindatabase",
+    storageBucket: "bbulogindatabase.appspot.com",
+    messagingSenderId: "925786660529",
+    appId: "1:925786660529:web:bb9fc6f0de3e0f6003cc90"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+</script>
+    </head>
+    <body><ol id="mailbox">
+        <ol><input placeholder="First Name" type="name" name="name" style="width: 270px; height: 42px; border:  solid 1px #c2c4c6;
+        font-size: 16px; padding-left: 8px; " required></ol>
+        <br>
+        <ol><input placeholder="Last Name" type="name" name="name" style="width: 270px; height: 42px; border:  solid 1px #c2c4c6;
+        font-size: 16px; padding-left: 8px;" required></ol>
+        <br>
+        <ol><input placeholder="Email" type="email" name="mail" style="width: 270px; height: 42px; border:  solid 1px #c2c4c6;
+        font-size: 16px; padding-left: 8px;" required></ol>
+        <br>
+        <ol><input placeholder="Cell Number" type="number" name="number" style="width: 270px; height: 42px; border:  solid 1px #c2c4c6;
+        font-size: 16px; padding-left: 8px;" required></ol> 
+        <br>    
+</div>
+    <br>
+    <br>
+
+    <div>
+        <input type="submit" id="button2" value="Sign In" onclick="Sign_in()">
+    </div></body>
+</html>
